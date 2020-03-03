@@ -20,7 +20,7 @@ assessmentButton.onclick = () => {
     return;
   }
 
-  // 診断結果表示エリアの作成
+  // 診断結果表示エリアの作成a
   removeAllChildren(resultDivided);
   const header = document.createElement('h3');
   header.innerText = '診断結果';
